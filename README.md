@@ -5,9 +5,9 @@ Optional project of the [Streaming Data Analytics](http://emanueledellavalle.org
 
 Student: **[To be assigned]**
 
-The project will use the C++ library SDME-P1 on an Arduino Portenta H7 simulator2 or a physical Arduino Portenta H73 to solve a live classification task. The aim is to train several models on SDME-P on an Arduino Portenta H7 simulator/physical device and to show the prediction results on a dashboard in real-time.
+The project will use the C++ library [SDME-P](https://polimi365-my.sharepoint.com/:b:/g/personal/10453372_polimi_it/EfFE5I5GLftJt95B6Twc72MBomt2PbLt0_uv-Xk3Z6vH3w?e=MWoJQi) on an [Arduino Portenta H7 simulator](https://github.com/arduino-libraries/Arduino_PortentaX86) or a [physical Arduino Portenta H73](https://store.arduino.cc/products/portenta-h7) to solve a live classification task. The aim is to train several models on SDME-P on an Arduino Portenta H7 simulator/physical device and to show the prediction results on a dashboard in real-time.
 
-More in practice, for the AI4I 2020 Predictive Maintenance Dataset4, you have to train and test the KNN, SAM KNN, HT, ARF, and SRP models in SDME-P on an Arduino Portenta H7 simulator/physical device one sample at a time, showing in real-time in a dashboard the features in input, the prediction, and the metrics results achieved.
+More in practice, for the [AI4I 2020 Predictive Maintenance Dataset](https://archive.ics.uci.edu/dataset/601/ai4i+2020+predictive+maintenance+dataset), you have to train and test the KNN, SAM KNN, HT, ARF, and SRP models in SDME-P on an Arduino Portenta H7 simulator/physical device one sample at a time, showing in real-time in a dashboard the features in input, the prediction, and the metrics results achieved.
 About the data ingestion to the Arduino, it is expected to send one sample at a time to the device and retrieve the prediction. It does not matter if the process will be slower.
 
 You should use the following metrics to compare the results: Accuracy, Balanced Accuracy, Geometric Mean, and CohenKappa
